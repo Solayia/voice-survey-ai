@@ -15,6 +15,14 @@ et le projet respecte le [versionnage sémantique](https://semver.org/lang/fr/).
 - Rédaction du document `04_BESOINS_MÉTIER.md` : analyse métier complète du
   besoin du premier client (études de marché par téléphone automatisées par IA).
 
+### Modifié
+
+- Revue & enrichissement de `04_BESOINS_MÉTIER.md` (v1.1) : ajout des scénarios
+  métier de bout en bout, des cycles de vie (étude / appel / contact) avec
+  diagrammes Mermaid, de la typologie des questions, de la gestion des erreurs
+  métier, du tableau des règles métier, des cas limites, des indicateurs (KPI)
+  étendus et d'une section « Questions en attente de validation ».
+
 ---
 
 <!--
