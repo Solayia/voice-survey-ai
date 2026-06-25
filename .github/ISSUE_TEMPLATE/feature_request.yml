@@ -1,54 +1,55 @@
-name: ✨ Feature Request
-description: Propose a new feature or enhancement for VoiceSurvey AI.
-title: "[Feature]: "
+name: ✨ Demande de fonctionnalité
+description: Proposer une nouvelle fonctionnalité ou une amélioration pour VoiceSurvey AI.
+title: "[Feature] : "
 labels: ["enhancement", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Remember: **design first**. Significant features should reference or
-        update the relevant document in `docs/` before implementation.
+        Rappel : **concevoir d'abord**. Toute fonctionnalité significative doit
+        référencer ou mettre à jour le document concerné dans `docs/` avant
+        l'implémentation.
   - type: textarea
     id: problem
     attributes:
-      label: Problem / motivation
-      description: What problem does this solve? Who benefits?
+      label: Problème / motivation
+      description: Quel problème cela résout-il ? À qui cela profite-t-il ?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      description: Describe the feature and how it should work.
+      label: Solution proposée
+      description: Décrivez la fonctionnalité et son fonctionnement attendu.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      description: Other approaches you considered and why you rejected them.
+      label: Alternatives envisagées
+      description: Autres approches considérées et raisons de leur rejet.
     validations:
       required: false
   - type: dropdown
     id: area
     attributes:
-      label: Affected area
+      label: Zone concernée
       options:
         - Frontend
         - Backend / API
-        - Telephony
-        - AI / Conversation engine
-        - Workflow engine
-        - Database
-        - Infrastructure / Deployment
+        - Téléphonie
+        - IA / Moteur conversationnel
+        - Moteur de workflows
+        - Base de données
+        - Infrastructure / Déploiement
         - Documentation
-        - Other
+        - Autre
     validations:
       required: true
   - type: textarea
     id: docs
     attributes:
-      label: Documentation impact
-      description: Which documents in `docs/` need to be created or updated?
+      label: Impact sur la documentation
+      description: Quels documents de `docs/` doivent être créés ou mis à jour ?
     validations:
       required: false

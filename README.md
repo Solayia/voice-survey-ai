@@ -1,73 +1,96 @@
 # VoiceSurvey AI
 
-> Internal enterprise application for AI-powered automated phone conversations.
+> Application interne d'entreprise pour automatiser les conversations
+> téléphoniques grâce à des agents vocaux propulsés par l'intelligence
+> artificielle.
 
-VoiceSurvey AI lets our team design questionnaires, import contact lists, run
-outbound calling campaigns, answer inbound calls, let an AI agent conduct
-natural conversations, collect answers, and automatically generate summaries,
-reports, and analytics.
+VoiceSurvey AI permet à nos équipes de concevoir des questionnaires, d'importer
+des contacts, de lancer des campagnes d'appels, de gérer les appels entrants et
+sortants, de laisser une IA mener des conversations naturelles, d'enregistrer
+les réponses, puis de produire automatiquement des statistiques, des rapports
+et des exports.
 
-The first business use case is **Market Research**.
-
----
-
-## What this is (and is not)
-
-- ✅ An **internal business application** used by a single company.
-- ❌ Not a SaaS platform.
-- ❌ No billing, no subscriptions, no multi-tenant architecture.
-
-The architecture is intentionally **modular** so the product can keep evolving
-for years without accumulating structural debt.
+Le premier besoin métier est la réalisation d'**études de marché**. Le moteur
+est toutefois conçu pour être **générique et réutilisable**, afin de couvrir
+plus tard : enquêtes de satisfaction, qualification de prospects, prise de
+rendez-vous, support client, recrutement et standard téléphonique.
 
 ---
 
-## Repository layout
+## Ce que c'est (et ce que ce n'est pas)
 
-| Path              | Purpose                                                            |
-| ----------------- | ----------------------------------------------------------------- |
-| `docs/`           | All project documentation (the source of truth for the product).  |
-| `backend/`        | FastAPI (Python) application — APIs, domain logic, services.       |
-| `frontend/`       | Next.js (React + TypeScript) web application.                      |
-| `infrastructure/` | Nginx, environment, and deployment configuration.                 |
-| `docker/`         | Dockerfiles and Docker Compose definitions.                       |
-| `scripts/`        | Developer and operations automation scripts.                      |
-| `assets/`         | Brand assets, logos, and shared static media.                     |
-| `templates/`      | Reusable content templates (questionnaires, emails, reports).     |
-| `prompts/`        | AI prompt library powering the conversation engine.               |
-| `.github/`        | GitHub automation: templates, workflows, CODEOWNERS.              |
+- ✅ Une **application métier interne**, utilisée par une seule entreprise.
+- ❌ Ce n'est pas une plateforme SaaS.
+- ❌ Pas de facturation, pas d'abonnement, pas d'architecture multi-tenant.
 
-Each top-level folder contains a `README.md` describing its purpose in detail.
+L'architecture est volontairement **modulaire** pour que le produit puisse
+évoluer pendant des années sans accumuler de dette technique.
 
 ---
 
-## Documentation-driven development
+## Structure du dépôt
 
-This repository is **driven by Markdown documentation**. Every important
-decision is documented *before* it is implemented. Start with
-[`docs/README.md`](docs/README.md) and the numbered documents in `docs/`.
+| Dossier           | Rôle                                                              |
+| ----------------- | ---------------------------------------------------------------- |
+| `docs/`           | Toute la documentation du projet (la source de vérité).          |
+| `backend/`        | Application FastAPI (Python) — API, logique métier, services.    |
+| `frontend/`       | Application web Next.js (React + TypeScript).                    |
+| `infrastructure/` | Configuration Nginx, environnements et déploiement.             |
+| `docker/`         | Dockerfiles et fichiers Docker Compose.                          |
+| `scripts/`        | Scripts d'automatisation pour le développement et l'exploitation.|
+| `assets/`         | Ressources statiques et éléments de marque.                      |
+| `templates/`      | Modèles de contenu réutilisables (questionnaires, rapports…).    |
+| `prompts/`        | Bibliothèque de prompts IA du moteur conversationnel.            |
+| `.github/`        | Automatisation GitHub : templates, workflows, CODEOWNERS.        |
 
----
-
-## Technology
-
-**Frontend:** Next.js · React · TypeScript · Tailwind CSS · Shadcn UI
-**Backend:** Python · FastAPI
-**Database:** PostgreSQL · **Cache:** Redis
-**Infrastructure:** Docker · Docker Compose · Nginx
-
----
-
-## Project status
-
-🟡 **Bootstrap phase.** The repository structure and documentation skeleton are
-being established. No application code has been written yet — by design.
-
-See [`CHANGELOG.md`](CHANGELOG.md) for history and
-[`CONTRIBUTING.md`](CONTRIBUTING.md) to get started.
+Chaque dossier de premier niveau contient un `README.md` détaillant son rôle.
 
 ---
 
-## License
+## Développement piloté par la documentation
 
-Proprietary and confidential. See [`LICENSE.md`](LICENSE.md).
+Ce dépôt est **piloté par la documentation Markdown**. Chaque décision
+importante est documentée *avant* d'être implémentée. Commencez par
+[`docs/00_INDEX.md`](docs/00_INDEX.md).
+
+> 📌 **Règle permanente :** aucune fonctionnalité n'est développée tant que sa
+> documentation n'a pas été rédigée, relue et validée.
+
+---
+
+## Stack technique
+
+**Frontend :** Next.js · React · TypeScript · Tailwind CSS · Shadcn UI
+**Backend :** Python · FastAPI
+**Base de données :** PostgreSQL · **Cache :** Redis
+**Infrastructure :** Docker · Docker Compose · Nginx
+
+### Principes d'architecture
+
+Clean Architecture · SOLID · DRY · KISS · Separation of Concerns ·
+Repository Pattern · Dependency Injection (lorsque pertinent).
+
+---
+
+## Langue
+
+- Toute la **documentation** et les explications sont rédigées en **français**.
+- Le **code** (noms de classes, fonctions, variables, méthodes, fichiers et
+  dossiers techniques) reste en **anglais**.
+
+---
+
+## État du projet
+
+🟡 **Phase d'amorçage (bootstrap).** La structure du dépôt et le squelette de
+documentation sont en cours d'établissement. Aucune ligne de code applicatif
+n'a encore été écrite — c'est volontaire.
+
+Voir [`CHANGELOG.md`](CHANGELOG.md) pour l'historique et
+[`CONTRIBUTING.md`](CONTRIBUTING.md) pour démarrer.
+
+---
+
+## Licence
+
+Logiciel propriétaire et confidentiel. Voir [`LICENSE.md`](LICENSE.md).

@@ -1,25 +1,25 @@
 # Scripts
 
-Developer and operations automation for VoiceSurvey AI.
+Automatisation pour le développement et l'exploitation de VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-Holds small, well-documented helper scripts that automate repetitive tasks so
-they are consistent and reproducible across the team.
+Regroupe de petits scripts utilitaires, bien documentés, qui automatisent les
+tâches répétitives pour les rendre cohérentes et reproductibles dans l'équipe.
 
-## Examples of what will live here
+## Contenu (à venir)
 
-- Environment bootstrap / first-time setup
-- Database migration and seeding helpers
-- Local stack start/stop wrappers
-- Linting, formatting, and test convenience runners
-- Data import/export utilities
+- Amorçage de l'environnement / installation initiale
+- Aides aux migrations et au peuplement de la base de données
+- Lanceurs de la stack locale (démarrage/arrêt)
+- Raccourcis de lint, formatage et tests
+- Utilitaires d'import/export de données
 
 ## Conventions
 
-- Prefer POSIX `sh`/`bash`; keep scripts idempotent where possible.
-- Every script begins with a short header comment explaining what it does and
-  how to run it.
-- Scripts must never contain secrets — read them from the environment.
+- Privilégier `sh`/`bash` POSIX ; garder les scripts idempotents si possible.
+- Chaque script débute par un commentaire d'en-tête expliquant son rôle et son
+  utilisation.
+- Aucun secret dans les scripts — les lire depuis l'environnement.
 
-> ⚠️ Placeholder only during bootstrap.
+Placeholder uniquement pendant l'amorçage.

@@ -1,32 +1,34 @@
-# License — Proprietary and Confidential
+# Licence — Propriétaire et Confidentielle
 
-Copyright © 2026. All rights reserved.
+Copyright © 2026. Tous droits réservés.
 
-VoiceSurvey AI ("the Software") is proprietary and confidential software
-developed for internal use by the owning company only.
+VoiceSurvey AI (« le Logiciel ») est un logiciel propriétaire et confidentiel
+développé pour un usage **interne exclusif** par l'entreprise propriétaire.
 
-## Grant
+## Concession
 
-No license, right, or permission is granted to any third party to use, copy,
-modify, merge, publish, distribute, sublicense, or sell copies of the Software,
-in whole or in part, without prior written authorization from the company.
+Aucune licence, aucun droit ni aucune permission n'est accordé à un tiers pour
+utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier ou
+vendre des copies du Logiciel, en tout ou partie, sans autorisation écrite
+préalable de l'entreprise.
 
 ## Restrictions
 
-- The Software may not be disclosed, shared, or distributed outside the company.
-- The Software may not be used to create derivative works for external use.
-- Access is limited to authorized employees and contractors bound by
-  confidentiality obligations.
+- Le Logiciel ne peut être divulgué, partagé ou distribué hors de l'entreprise.
+- Le Logiciel ne peut servir à créer des œuvres dérivées à usage externe.
+- L'accès est limité aux employés et prestataires autorisés, soumis à une
+  obligation de confidentialité.
 
-## No Warranty
+## Absence de garantie
 
-The Software is provided "as is", without warranty of any kind, express or
-implied, including but not limited to the warranties of merchantability,
-fitness for a particular purpose, and non-infringement.
+Le Logiciel est fourni « en l'état », sans garantie d'aucune sorte, expresse ou
+implicite, y compris, sans s'y limiter, les garanties de qualité marchande,
+d'adéquation à un usage particulier et d'absence de contrefaçon.
 
-## Internal Use Only
+## Usage interne uniquement
 
-This is an internal business application. It is **not** distributed as a SaaS
-product and contains no billing, subscription, or multi-tenant capabilities.
+Il s'agit d'une application métier interne. Ce n'est **pas** un produit SaaS et
+elle ne comporte aucune fonctionnalité de facturation, d'abonnement ou
+multi-tenant.
 
-For licensing questions, contact the project owner.
+Pour toute question relative à la licence, contactez le propriétaire du projet.

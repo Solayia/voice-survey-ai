@@ -1,21 +1,25 @@
 # Assets
 
-Shared static assets and brand materials for VoiceSurvey AI.
+Ressources statiques partagées et éléments de marque de VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-A single home for non-code media used across the product and documentation:
+Un emplacement unique pour les médias non-code utilisés dans le produit et la
+documentation :
 
-- Logos and brand marks
-- Icons and illustrations
-- Architecture diagrams and screenshots referenced by `docs/`
-- Color/typography reference images for the design system
+- Logos et marques
+- Icônes et illustrations
+- Diagrammes d'architecture et captures référencés par `docs/`
+- Références de couleurs/typographie pour le design system
+
+## Contenu (à venir)
+
+Placeholder uniquement pendant l'amorçage.
 
 ## Conventions
 
-- Use clear, descriptive, kebab-case filenames (e.g. `logo-dark.svg`).
-- Prefer vector formats (SVG) where possible.
-- Keep large binaries out of the repo where practical; link instead.
+- Noms de fichiers clairs, descriptifs, en kebab-case (ex. `logo-dark.svg`).
+- Privilégier les formats vectoriels (SVG) lorsque c'est possible.
+- Éviter autant que possible les gros binaires dans le dépôt ; préférer un lien.
 
-> ⚠️ Placeholder only during bootstrap.
-> Related: [`../docs/21_DESIGN_SYSTEM.md`](../docs/21_DESIGN_SYSTEM.md).
+Lié à : [`../docs/20_DESIGN_SYSTEM.md`](../docs/20_DESIGN_SYSTEM.md).

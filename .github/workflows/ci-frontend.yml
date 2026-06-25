@@ -1,8 +1,9 @@
 # =============================================================================
 # CI — Frontend (PLACEHOLDER)
 # -----------------------------------------------------------------------------
-# Non-functional placeholder. Real steps (install, lint, type-check, build,
-# test) will be added once the Next.js frontend exists.
+# Placeholder non fonctionnel. Les étapes réelles (installation, lint,
+# vérification de types, build, tests) seront ajoutées une fois le frontend
+# Next.js créé.
 # =============================================================================
 name: CI · Frontend
 
@@ -19,13 +20,13 @@ on:
 
 jobs:
   placeholder:
-    name: Frontend checks (placeholder)
+    name: Vérifications frontend (placeholder)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Placeholder notice
+      - name: Avis placeholder
         run: |
-          echo "Frontend CI is not configured yet."
-          echo "TODO: set up Node, install deps, run eslint + tsc + next build + tests."
+          echo "La CI frontend n'est pas encore configurée."
+          echo "TODO : installer Node, les dépendances, lancer eslint + tsc + next build + tests."

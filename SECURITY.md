@@ -1,38 +1,42 @@
-# Security Policy
+# Politique de sécurité
 
-VoiceSurvey AI handles sensitive data — contact lists, recorded/transcribed
-phone conversations, and survey responses. Security is a first-class concern.
+VoiceSurvey AI manipule des données sensibles — listes de contacts,
+enregistrements et transcriptions d'appels, réponses aux enquêtes. La sécurité
+est une préoccupation de premier ordre.
 
-## Reporting a vulnerability
+## Signaler une vulnérabilité
 
-If you discover a security vulnerability:
+Si vous découvrez une vulnérabilité de sécurité :
 
-1. **Do not** open a public issue.
-2. Report it **privately** to the project owner / security lead.
-3. Include: a description, steps to reproduce, affected components, and impact.
-4. Allow reasonable time for remediation before any wider disclosure.
+1. **N'ouvrez pas** d'issue publique.
+2. Signalez-la **en privé** au propriétaire du projet / responsable sécurité.
+3. Incluez : une description, les étapes de reproduction, les composants
+   affectés et l'impact.
+4. Laissez un délai raisonnable pour la correction avant toute divulgation.
 
-Reports are acknowledged and triaged as a priority.
+Les signalements sont accusés réception et traités en priorité.
 
-## Scope
+## Périmètre
 
-This policy covers the application code, infrastructure configuration, and
-data-handling pipelines in this repository.
+Cette politique couvre le code applicatif, la configuration d'infrastructure et
+les pipelines de traitement des données de ce dépôt.
 
-## Data protection principles
+## Principes de protection des données
 
-- **Least privilege** for all credentials and service accounts.
-- **Secrets never committed** — use environment variables and a secrets manager.
-- **Encryption** in transit (TLS) and at rest for sensitive data.
-- **PII handling** for contacts and call data must follow applicable
-  regulations and the company's data-protection policy.
-- **Auditability** — security-relevant actions should be logged.
+- **Moindre privilège** pour tous les identifiants et comptes de service.
+- **Aucun secret dans le dépôt** — utiliser des variables d'environnement et un
+  gestionnaire de secrets.
+- **Chiffrement** en transit (TLS) et au repos pour les données sensibles.
+- **Traitement des données personnelles** (contacts, appels) conforme à la
+  réglementation applicable et à la politique de l'entreprise.
+- **Traçabilité** — les actions sensibles doivent être journalisées.
 
-Detailed controls are documented in
-[`docs/17_SECURITY.md`](docs/17_SECURITY.md) and
-[`docs/16_AUTHENTICATION.md`](docs/16_AUTHENTICATION.md).
+Les contrôles détaillés sont documentés dans
+[`docs/17_SÉCURITÉ.md`](docs/17_SÉCURITÉ.md) et
+[`docs/16_AUTHENTIFICATION.md`](docs/16_AUTHENTIFICATION.md).
 
-## Supported versions
+## Versions prises en charge
 
-As an internal application under active development, only the current
-`main` line is supported. Security fixes are applied to the latest version.
+En tant qu'application interne en développement actif, seule la ligne `main`
+courante est prise en charge. Les correctifs de sécurité s'appliquent à la
+version la plus récente.

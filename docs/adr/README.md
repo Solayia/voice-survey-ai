@@ -1,27 +1,27 @@
-# Architecture Decision Records (ADRs)
+# Architecture Decision Records (ADR)
 
-This folder captures **significant technical decisions** and the context behind
-them, so future maintainers understand *why* the system is the way it is.
+Ce dossier consigne les **décisions techniques significatives** et leur contexte,
+afin que les futurs mainteneurs comprennent *pourquoi* le système est ce qu'il est.
 
-## What is an ADR?
+## Qu'est-ce qu'un ADR ?
 
-A short Markdown document recording a single architectural decision: the
-context, the decision, the alternatives considered, and the consequences.
+Un court document Markdown consignant une décision d'architecture : le contexte,
+la décision prise, les alternatives envisagées et les conséquences.
 
 ## Conventions
 
-- One decision per file.
-- Filename: `NNNN-short-title.md` (e.g. `0001-use-clean-architecture.md`),
-  using a zero-padded incrementing number.
-- Start from [`0000-template.md`](0000-template.md).
-- ADRs are **immutable** once accepted. To change a decision, add a new ADR that
-  supersedes the old one and update the old one's status.
+- Une décision par fichier.
+- Nom de fichier : `NNNN-titre-court.md` (ex. `0001-utiliser-clean-architecture.md`),
+  avec un numéro incrémental sur 4 chiffres.
+- Partir de [`0000-modele.md`](0000-modele.md).
+- Un ADR est **immuable** une fois accepté. Pour changer une décision, ajouter un
+  nouvel ADR qui remplace l'ancien et mettre à jour le statut de l'ancien.
 
 ## Index
 
-| #    | Title    | Status |
+| #    | Titre    | Statut |
 | ---- | -------- | ------ |
-| 0000 | [Template](0000-template.md) | — |
+| 0000 | [Modèle](0000-modele.md) | — |
 
-> 🟡 No decisions recorded yet. The first ADRs will be added as architecture
-> documents (`docs/09`–`docs/15`) are written.
+> 🟡 Aucune décision consignée pour l'instant. Les premiers ADR seront ajoutés
+> au fur et à mesure de la rédaction des documents d'architecture (`09`–`15`).

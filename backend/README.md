@@ -1,32 +1,35 @@
 # Backend
 
-The **FastAPI (Python)** application powering VoiceSurvey AI.
+L'application **FastAPI (Python)** qui propulse VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-Hosts the HTTP/WebSocket APIs, domain logic, and background services for
-questionnaires, contacts, campaigns, calls, the AI conversation engine
-integration, results, and reporting.
+Héberge les API HTTP/WebSocket, la logique métier et les services d'arrière-plan :
+questionnaires, contacts, campagnes, appels, intégration du moteur IA, réponses
+et rapports.
 
-## Design intent
+## Contenu (à venir)
 
-This package follows **Clean Architecture**. The intended internal layering
-(to be implemented later) is:
+Aucun code applicatif n'existe encore — c'est volontaire pendant l'amorçage.
+
+## Conventions
+
+Ce paquet suivra la **Clean Architecture**. Le découpage interne prévu est :
 
 ```
 backend/
 ├── app/
-│   ├── api/            # HTTP & WebSocket routers (delivery layer)
-│   ├── core/           # Config, settings, logging, security primitives
-│   ├── domain/         # Entities & business rules (framework-agnostic)
-│   ├── services/       # Use cases / application services
-│   ├── repositories/   # Data-access abstractions
-│   ├── infrastructure/ # DB, Redis, telephony & AI provider adapters
-│   ├── schemas/        # Pydantic request/response models
-│   └── workers/        # Background jobs & the workflow engine runtime
-├── tests/              # Unit & integration tests
-└── pyproject.toml      # Dependencies & tooling config
+│   ├── api/            # Routers HTTP & WebSocket (couche de présentation)
+│   ├── core/           # Configuration, logging, primitives de sécurité
+│   ├── domain/         # Entités & règles métier (indépendantes du framework)
+│   ├── services/       # Cas d'usage / services applicatifs
+│   ├── repositories/   # Abstractions d'accès aux données (Repository Pattern)
+│   ├── infrastructure/ # Adaptateurs DB, Redis, téléphonie, fournisseurs IA
+│   ├── schemas/        # Modèles Pydantic de requêtes/réponses
+│   └── workers/        # Tâches d'arrière-plan & runtime du moteur de workflows
+├── tests/              # Tests unitaires & d'intégration
+└── pyproject.toml      # Dépendances & configuration de l'outillage
 ```
 
-> ⚠️ No application code exists yet — this is intentional during the bootstrap
-> phase. See [`../docs/11_BACKEND_ARCHITECTURE.md`](../docs/11_BACKEND_ARCHITECTURE.md).
+- Code en **anglais**, PEP 8, annotations de types obligatoires.
+- Voir [`../docs/11_ARCHITECTURE_BACKEND.md`](../docs/11_ARCHITECTURE_BACKEND.md).

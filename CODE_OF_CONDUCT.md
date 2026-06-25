@@ -1,37 +1,38 @@
-# Code of Conduct
+# Code de conduite
 
-## Our commitment
+## Notre engagement
 
-We are committed to a professional, respectful, and harassment-free working
-environment for everyone involved in VoiceSurvey AI, regardless of role,
-background, or experience level.
+Nous nous engageons à offrir un environnement de travail professionnel,
+respectueux et exempt de harcèlement à toute personne impliquée dans
+VoiceSurvey AI, quels que soient son rôle, son parcours ou son expérience.
 
-## Expected behavior
+## Comportements attendus
 
-- Be respectful, constructive, and collaborative.
-- Give and accept feedback gracefully and professionally.
-- Focus on what is best for the project and the team.
-- Respect confidentiality — this is an internal, proprietary project.
+- Faire preuve de respect, d'esprit constructif et de collaboration.
+- Donner et recevoir les retours avec professionnalisme.
+- Privilégier l'intérêt du projet et de l'équipe.
+- Respecter la confidentialité — ce projet interne est propriétaire.
 
-## Unacceptable behavior
+## Comportements inacceptables
 
-- Harassment, discrimination, or personal attacks of any kind.
-- Sharing confidential project information outside the company.
-- Disruptive, disrespectful, or unprofessional conduct.
+- Harcèlement, discrimination ou attaques personnelles de toute nature.
+- Partage d'informations confidentielles hors de l'entreprise.
+- Conduite perturbatrice, irrespectueuse ou non professionnelle.
 
-## Scope
+## Périmètre
 
-This Code of Conduct applies within all project spaces — repositories, issues,
-pull requests, internal communication channels, and meetings — and whenever an
-individual is representing the project.
+Ce code de conduite s'applique à tous les espaces du projet — dépôts, issues,
+pull requests, canaux de communication internes et réunions — ainsi que lors
+qu'une personne représente le projet.
 
-## Enforcement
+## Application
 
-Violations may be reported confidentially to the project owner or team lead.
-All reports will be reviewed and handled discreetly. Project maintainers are
-responsible for clarifying standards and may take appropriate corrective action.
+Les manquements peuvent être signalés de façon confidentielle au propriétaire du
+projet ou au responsable d'équipe. Chaque signalement sera examiné et traité
+avec discrétion. Les mainteneurs sont responsables de clarifier les règles et
+peuvent prendre les mesures correctives appropriées.
 
 ## Attribution
 
-This Code of Conduct is adapted from the
-[Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
+Ce code de conduite est adapté du
+[Contributor Covenant](https://www.contributor-covenant.org/fr/), version 2.1.

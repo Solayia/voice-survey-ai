@@ -1,13 +1,14 @@
 # CODEOWNERS — VoiceSurvey AI
 # -----------------------------------------------------------------------------
-# These owners are automatically requested for review when matching files
-# change. Order matters: the LAST matching pattern takes precedence.
+# Ces propriétaires sont automatiquement sollicités pour la revue lorsque les
+# fichiers correspondants changent. L'ordre compte : le DERNIER motif
+# correspondant l'emporte.
 #
-# Replace the placeholder @org/team-* handles with real GitHub teams or users
-# before enabling required reviews.
+# Remplacer les identifiants @org/team-* (placeholders) par de vraies équipes
+# ou utilisateurs GitHub avant d'activer les revues obligatoires.
 # -----------------------------------------------------------------------------
 
-# Default owners for everything in the repo
+# Propriétaires par défaut pour tout le dépôt
 *                       @org/team-maintainers
 
 # Documentation
@@ -26,5 +27,5 @@
 /.github/               @org/team-devops
 /scripts/               @org/team-devops
 
-# AI prompts & conversation engine
+# Prompts IA & moteur conversationnel
 /prompts/               @org/team-ai

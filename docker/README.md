@@ -1,30 +1,29 @@
 # Docker
 
-Container definitions and orchestration for VoiceSurvey AI.
+Définitions de conteneurs et orchestration pour VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-Centralizes all **Dockerfiles** and **Docker Compose** files so local
-development and deployment use the same, reproducible service definitions.
+Centralise tous les **Dockerfiles** et fichiers **Docker Compose** afin que le
+développement local et le déploiement utilisent des définitions de services
+identiques et reproductibles.
 
-## Intended layout
+## Contenu (à venir)
+
+Placeholder uniquement pendant l'amorçage.
+
+## Conventions
 
 ```
 docker/
-├── backend.Dockerfile      # FastAPI service image
-├── frontend.Dockerfile     # Next.js service image
-├── docker-compose.yml      # Base stack: backend, frontend, postgres, redis, nginx
-├── docker-compose.dev.yml  # Development overrides (hot reload, mounts)
-└── docker-compose.prod.yml # Production overrides
+├── backend.Dockerfile      # Image du service FastAPI
+├── frontend.Dockerfile     # Image du service Next.js
+├── docker-compose.yml      # Stack de base : backend, frontend, postgres, redis, nginx
+├── docker-compose.dev.yml  # Surcharges de développement (hot reload, montages)
+└── docker-compose.prod.yml # Surcharges de production
 ```
 
-## Service stack (planned)
+Stack de services prévue : **frontend** (Next.js), **backend** (FastAPI),
+**db** (PostgreSQL), **cache** (Redis), **proxy** (Nginx).
 
-- **frontend** — Next.js
-- **backend** — FastAPI
-- **db** — PostgreSQL
-- **cache** — Redis
-- **proxy** — Nginx
-
-> ⚠️ Placeholder only during bootstrap.
-> See [`../docs/18_DEPLOYMENT.md`](../docs/18_DEPLOYMENT.md).
+Voir [`../docs/18_DÉPLOIEMENT.md`](../docs/18_DÉPLOIEMENT.md).

@@ -1,29 +1,29 @@
-# Changelog
+# Journal des modifications
 
-All notable changes to this project are documented in this file.
+Toutes les modifications notables de ce projet sont consignées dans ce fichier.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Le format s'appuie sur [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
+et le projet respecte le [versionnage sémantique](https://semver.org/lang/fr/).
 
-## [Unreleased]
+## [Non publié]
 
-### Added
+### Ajouté
 
-- Initial repository bootstrap: professional folder structure, governance
-  files, GitHub templates, CI workflow placeholders, and the documentation
-  skeleton (`docs/01`–`docs/25`).
+- Amorçage initial du dépôt : structure de dossiers professionnelle, fichiers de
+  gouvernance, templates GitHub, placeholders de workflows CI, et squelette de
+  documentation en français (`docs/00`–`docs/25`) avec dossier ADR.
 
 ---
 
 <!--
-Template for future entries:
+Modèle pour les entrées futures :
 
-## [X.Y.Z] - YYYY-MM-DD
+## [X.Y.Z] - AAAA-MM-JJ
 
-### Added
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
+### Ajouté
+### Modifié
+### Déprécié
+### Retiré
+### Corrigé
+### Sécurité
 -->

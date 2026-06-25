@@ -1,25 +1,28 @@
 # Infrastructure
 
-Environment, reverse-proxy, and deployment configuration for VoiceSurvey AI.
+Configuration des environnements, du reverse-proxy et du déploiement.
 
-## Purpose
+## Rôle
 
-Holds infrastructure-as-configuration that is **not** Docker image definitions
-(those live in [`../docker/`](../docker)). This includes:
+Regroupe la configuration d'infrastructure qui n'est **pas** la définition des
+images Docker (celles-ci vivent dans [`../docker/`](../docker)) :
 
-- **Nginx** reverse-proxy configuration (TLS termination, routing to frontend
-  and backend, WebSocket upgrades for live call audio/events).
-- **Environment templates** (`.env.example` files) per service.
-- **Deployment** manifests / runbooks for staging and production.
+- Configuration **Nginx** (terminaison TLS, routage frontend/backend, montée en
+  WebSocket pour l'audio et les événements d'appels en temps réel).
+- **Modèles d'environnement** (`.env.example`) par service.
+- **Déploiement** : manifestes et runbooks pour staging et production.
 
-## Intended layout
+## Contenu (à venir)
+
+Placeholder uniquement pendant l'amorçage.
+
+## Conventions
 
 ```
 infrastructure/
-├── nginx/              # Nginx site & proxy configuration
-├── env/                # Environment variable templates (.env.example)
-└── deploy/             # Deployment configuration & runbooks
+├── nginx/              # Configuration des sites & du proxy Nginx
+├── env/                # Modèles de variables d'environnement (.env.example)
+└── deploy/            # Configuration de déploiement & runbooks
 ```
 
-> ⚠️ Placeholder only during bootstrap.
-> See [`../docs/18_DEPLOYMENT.md`](../docs/18_DEPLOYMENT.md).
+Voir [`../docs/18_DÉPLOIEMENT.md`](../docs/18_DÉPLOIEMENT.md).

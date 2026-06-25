@@ -1,49 +1,49 @@
 <!--
-  Thank you for your contribution to VoiceSurvey AI.
-  Keep PRs small and focused. Fill out every section.
+  Merci pour votre contribution à VoiceSurvey AI.
+  Gardez les PR petites et ciblées. Remplissez chaque section.
 -->
 
-## Summary
+## Résumé
 
-<!-- What does this PR do and why? -->
+<!-- Que fait cette PR et pourquoi ? -->
 
-## Related issues
+## Issues liées
 
-<!-- e.g. Closes #123, Relates to #456 -->
+<!-- ex. Closes #123, Relates to #456 -->
 
-## Type of change
+## Type de changement
 
-- [ ] ✨ Feature
-- [ ] 🐛 Bug fix
+- [ ] ✨ Fonctionnalité
+- [ ] 🐛 Correction de bug
 - [ ] 📝 Documentation
-- [ ] ♻️ Refactor
-- [ ] 🔧 Chore / tooling
-- [ ] ⚠️ Breaking change
+- [ ] ♻️ Refactorisation
+- [ ] 🔧 Maintenance / outillage
+- [ ] ⚠️ Changement cassant (breaking change)
 
-## Changes
+## Changements
 
-<!-- Bullet list of the key changes. -->
+<!-- Liste à puces des changements clés. -->
 
 -
 
-## How has this been tested?
+## Comment cela a-t-il été testé ?
 
-<!-- Describe tests / manual verification steps. -->
+<!-- Décrivez les tests / étapes de vérification manuelle. -->
 
 ## Documentation
 
-- [ ] Relevant docs in `docs/` were added or updated
-- [ ] No documentation changes are required
+- [ ] Les documents concernés dans `docs/` ont été ajoutés ou mis à jour
+- [ ] Aucune mise à jour de documentation n'est nécessaire
 
 ## Checklist
 
-- [ ] My code follows the project [coding standards](../docs/22_CODING_STANDARDS.md)
-- [ ] I followed the [Git workflow](../docs/23_GIT_WORKFLOW.md)
-- [ ] Commits follow Conventional Commits
-- [ ] Self-reviewed my own changes
-- [ ] No secrets, credentials, or PII are committed
-- [ ] CI passes locally / is expected to pass
+- [ ] Mon code respecte les [conventions de code](../docs/21_CONVENTIONS_DE_CODE.md)
+- [ ] J'ai suivi le [workflow Git](../docs/22_WORKFLOW_GIT.md)
+- [ ] Les commits respectent Conventional Commits
+- [ ] J'ai relu moi-même mes changements
+- [ ] Aucun secret, identifiant ou donnée personnelle n'est committé
+- [ ] La CI passe en local / devrait passer
 
-## Screenshots / notes (optional)
+## Captures d'écran / notes (optionnel)
 
-<!-- Add any extra context, screenshots, or considerations for reviewers. -->
+<!-- Contexte additionnel, captures, ou points d'attention pour les relecteurs. -->

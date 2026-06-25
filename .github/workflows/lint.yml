@@ -1,10 +1,10 @@
 # =============================================================================
-# Repository hygiene (PLACEHOLDER)
+# Hygiène du dépôt (PLACEHOLDER)
 # -----------------------------------------------------------------------------
-# Non-functional placeholder for repo-wide checks: Markdown linting, link
-# checking, EditorConfig compliance, secret scanning, etc.
+# Placeholder non fonctionnel pour les vérifications transverses : lint Markdown,
+# vérification des liens, conformité EditorConfig, détection de secrets, etc.
 # =============================================================================
-name: Repo Hygiene
+name: Hygiène du dépôt
 
 on:
   push:
@@ -13,13 +13,13 @@ on:
 
 jobs:
   placeholder:
-    name: Hygiene checks (placeholder)
+    name: Vérifications d'hygiène (placeholder)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Placeholder notice
+      - name: Avis placeholder
         run: |
-          echo "Repo hygiene checks are not configured yet."
-          echo "TODO: markdownlint, link-check, editorconfig-checker, secret scan."
+          echo "Les vérifications d'hygiène ne sont pas encore configurées."
+          echo "TODO : markdownlint, vérification des liens, editorconfig-checker, scan de secrets."

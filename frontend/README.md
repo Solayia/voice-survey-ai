@@ -1,30 +1,34 @@
 # Frontend
 
-The **Next.js (React + TypeScript)** web application for VoiceSurvey AI.
+L'application web **Next.js (React + TypeScript)** de VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-Provides the internal UI for building questionnaires, importing contacts,
-launching and monitoring campaigns, reviewing conversations, and exploring
-summaries, reports, and analytics.
+Fournit l'interface interne pour construire les questionnaires, importer les
+contacts, lancer et superviser les campagnes, relire les conversations et
+explorer statistiques, rapports et exports.
 
-## Design intent
+## Contenu (à venir)
 
-Styled with **Tailwind CSS** and **Shadcn UI**, using strict TypeScript and a
-modular, feature-oriented structure. Intended layout (to be implemented later):
+Aucun code applicatif n'existe encore — c'est volontaire pendant l'amorçage.
+
+## Conventions
+
+Stylé avec **Tailwind CSS** et **Shadcn UI**, en TypeScript strict, avec une
+structure modulaire orientée fonctionnalités. Découpage prévu :
 
 ```
 frontend/
 ├── src/
-│   ├── app/            # Next.js App Router routes & layouts
-│   ├── components/     # Reusable UI (Shadcn-based) components
-│   ├── features/       # Feature modules (campaigns, contacts, surveys, …)
-│   ├── lib/            # API clients, utilities, hooks
-│   ├── styles/         # Tailwind config & global styles
-│   └── types/          # Shared TypeScript types
-├── public/             # Static assets served as-is
-└── package.json        # Dependencies & scripts
+│   ├── app/            # Routes & layouts (App Router de Next.js)
+│   ├── components/     # Composants UI réutilisables (basés sur Shadcn)
+│   ├── features/       # Modules fonctionnels (campaigns, contacts, surveys…)
+│   ├── lib/            # Clients API, utilitaires, hooks
+│   ├── styles/         # Configuration Tailwind & styles globaux
+│   └── types/          # Types TypeScript partagés
+├── public/             # Ressources statiques servies telles quelles
+└── package.json        # Dépendances & scripts
 ```
 
-> ⚠️ No application code exists yet — intentional during bootstrap.
-> See [`../docs/12_FRONTEND_ARCHITECTURE.md`](../docs/12_FRONTEND_ARCHITECTURE.md).
+- Code en **anglais**, ESLint + Prettier, TypeScript strict.
+- Voir [`../docs/12_ARCHITECTURE_FRONTEND.md`](../docs/12_ARCHITECTURE_FRONTEND.md).

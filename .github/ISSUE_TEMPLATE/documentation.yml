@@ -1,31 +1,31 @@
 name: 📝 Documentation
-description: Report missing, unclear, or outdated documentation.
-title: "[Docs]: "
+description: Signaler une documentation manquante, peu claire ou obsolète.
+title: "[Docs] : "
 labels: ["documentation", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Documentation is part of the product. Help us keep it accurate.
+        La documentation fait partie du produit. Aidez-nous à la garder exacte.
   - type: input
     id: document
     attributes:
-      label: Affected document
-      description: Which file in `docs/` (or elsewhere) does this concern?
-      placeholder: docs/09_ARCHITECTURE.md
+      label: Document concerné
+      description: Quel fichier de `docs/` (ou ailleurs) est concerné ?
+      placeholder: docs/09_ARCHITECTURE_GLOBALE.md
     validations:
       required: true
   - type: textarea
     id: issue
     attributes:
-      label: What is wrong or missing?
-      description: Describe the documentation gap or error.
+      label: Qu'est-ce qui est erroné ou manquant ?
+      description: Décrivez la lacune ou l'erreur de documentation.
     validations:
       required: true
   - type: textarea
     id: suggestion
     attributes:
-      label: Suggested improvement
-      description: How should it be fixed or clarified?
+      label: Amélioration suggérée
+      description: Comment corriger ou clarifier ?
     validations:
       required: false

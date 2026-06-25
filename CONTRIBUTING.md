@@ -1,64 +1,68 @@
-# Contributing to VoiceSurvey AI
+# Contribuer à VoiceSurvey AI
 
-Thank you for contributing. This guide explains how we work so the codebase
-stays clean, modular, and maintainable for years.
+Merci de votre contribution. Ce guide explique notre façon de travailler afin de
+garder une base de code propre, modulaire et maintenable pendant des années.
 
-> 📌 This is an **internal** project. Contributions come from authorized team
-> members and contractors only.
-
----
-
-## Core principles
-
-We follow these principles in every change:
-
-- **Design first.** Never start coding immediately — document the decision first.
-- **Clean Architecture** — keep domain logic independent of frameworks.
-- **SOLID, DRY, KISS** — favor simple, single-responsibility, reusable code.
-- **Separation of Concerns** — clear boundaries between layers and modules.
-- **Documentation is part of the product** — update docs with every change.
+> 📌 Il s'agit d'un projet **interne**. Les contributions proviennent uniquement
+> des membres de l'équipe et prestataires autorisés.
 
 ---
 
-## Workflow at a glance
+## Principes fondamentaux
 
-1. **Open an issue** describing the problem or feature (use the templates).
-2. **Discuss & document** — update or add the relevant doc in `docs/` first.
-3. **Create a branch** from the latest default branch.
-4. **Implement** the change in small, focused commits.
-5. **Open a Pull Request** using the PR template.
-6. **Pass CI** and request review from the appropriate `CODEOWNERS`.
-7. **Merge** once approved and green.
+Nous appliquons ces principes à chaque changement :
 
-See [`docs/23_GIT_WORKFLOW.md`](docs/23_GIT_WORKFLOW.md) for full details.
-
----
-
-## Branch naming
-
-Use short, descriptive, kebab-case branches with a type prefix:
-
-```
-feat/<short-description>      # new feature
-fix/<short-description>       # bug fix
-docs/<short-description>      # documentation only
-refactor/<short-description>  # internal refactor
-chore/<short-description>     # tooling, deps, housekeeping
-```
+- **Concevoir d'abord.** Ne jamais coder immédiatement — documenter la décision
+  avant de l'implémenter.
+- **Clean Architecture** — garder la logique métier indépendante des frameworks.
+- **SOLID, DRY, KISS** — privilégier un code simple, à responsabilité unique et
+  réutilisable.
+- **Separation of Concerns** — des frontières claires entre couches et modules.
+- **Repository Pattern** et **Dependency Injection** lorsque pertinent.
+- **La documentation fait partie du produit** — la mettre à jour à chaque
+  changement.
 
 ---
 
-## Commit messages
+## Vue d'ensemble du flux de travail
 
-We follow [Conventional Commits](https://www.conventionalcommits.org/):
+1. **Ouvrir une issue** décrivant le problème ou la fonctionnalité (templates).
+2. **Discuter & documenter** — mettre à jour le document concerné dans `docs/`.
+3. **Créer une branche** à partir de la branche par défaut à jour.
+4. **Implémenter** le changement en commits courts et ciblés.
+5. **Ouvrir une Pull Request** en utilisant le template fourni.
+6. **Faire passer la CI** et demander la revue aux `CODEOWNERS` concernés.
+7. **Fusionner** une fois la PR approuvée et la CI verte.
+
+Détails complets dans [`docs/22_WORKFLOW_GIT.md`](docs/22_WORKFLOW_GIT.md).
+
+---
+
+## Nommage des branches
+
+Branches courtes, descriptives, en kebab-case, avec un préfixe de type :
 
 ```
-<type>(<optional scope>): <short summary>
-
-<optional body explaining what and why>
+feat/<description-courte>      # nouvelle fonctionnalité
+fix/<description-courte>       # correction de bug
+docs/<description-courte>      # documentation uniquement
+refactor/<description-courte>  # refactorisation interne
+chore/<description-courte>     # outillage, dépendances, maintenance
 ```
 
-Examples:
+---
+
+## Messages de commit
+
+Nous suivons la convention [Conventional Commits](https://www.conventionalcommits.org/) :
+
+```
+<type>(<portée optionnelle>) : <résumé court>
+
+<corps optionnel expliquant quoi et pourquoi>
+```
+
+Exemples :
 
 ```
 feat(campaigns): add outbound campaign scheduler
@@ -66,30 +70,31 @@ fix(telephony): handle dropped-call retry logic
 docs(architecture): document workflow engine boundaries
 ```
 
+> Rappel : les **messages de commit et le code restent en anglais** ; la
+> documentation et les échanges sont en français.
+
 ---
 
-## Coding standards
+## Conventions de code
 
-- **Backend (Python/FastAPI):** PEP 8, type hints, formatted with the project
-  formatter and linter. See [`docs/22_CODING_STANDARDS.md`](docs/22_CODING_STANDARDS.md).
-- **Frontend (Next.js/TS):** strict TypeScript, ESLint + Prettier, Tailwind +
-  Shadcn UI conventions.
-
-Details live in [`docs/22_CODING_STANDARDS.md`](docs/22_CODING_STANDARDS.md).
+- **Backend (Python/FastAPI) :** PEP 8, annotations de types, formateur et
+  linter du projet. Voir [`docs/21_CONVENTIONS_DE_CODE.md`](docs/21_CONVENTIONS_DE_CODE.md).
+- **Frontend (Next.js/TS) :** TypeScript strict, ESLint + Prettier, conventions
+  Tailwind + Shadcn UI.
 
 ---
 
 ## Pull Requests
 
-- Keep PRs small and focused on a single concern.
-- Fill out the PR template completely.
-- Link the related issue(s).
-- Ensure documentation is updated.
-- All CI checks must pass before review.
+- Garder les PR petites et centrées sur un seul sujet.
+- Remplir intégralement le template de PR.
+- Lier la ou les issues associées.
+- S'assurer que la documentation est à jour.
+- Toutes les vérifications CI doivent passer avant la revue.
 
 ---
 
-## Code of Conduct
+## Code de conduite
 
-By participating you agree to uphold our
-[Code of Conduct](CODE_OF_CONDUCT.md).
+En participant, vous acceptez de respecter notre
+[Code de conduite](CODE_OF_CONDUCT.md).

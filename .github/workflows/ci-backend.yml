@@ -1,9 +1,9 @@
 # =============================================================================
 # CI — Backend (PLACEHOLDER)
 # -----------------------------------------------------------------------------
-# This is a non-functional placeholder. Real steps (install, lint, type-check,
-# test) will be added once the FastAPI backend exists. Kept minimal so the
-# Actions tab is wired up from day one.
+# Placeholder non fonctionnel. Les étapes réelles (installation, lint,
+# vérification de types, tests) seront ajoutées une fois le backend FastAPI
+# créé. Volontairement minimal pour câbler l'onglet Actions dès le départ.
 # =============================================================================
 name: CI · Backend
 
@@ -20,13 +20,13 @@ on:
 
 jobs:
   placeholder:
-    name: Backend checks (placeholder)
+    name: Vérifications backend (placeholder)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Placeholder notice
+      - name: Avis placeholder
         run: |
-          echo "Backend CI is not configured yet."
-          echo "TODO: set up Python, install deps, run ruff + mypy + pytest."
+          echo "La CI backend n'est pas encore configurée."
+          echo "TODO : installer Python, les dépendances, lancer ruff + mypy + pytest."

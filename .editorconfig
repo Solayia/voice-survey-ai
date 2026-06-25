@@ -1,5 +1,5 @@
 # EditorConfig — https://editorconfig.org
-# Top-most EditorConfig file for VoiceSurvey AI
+# Fichier EditorConfig racine pour VoiceSurvey AI
 root = true
 
 [*]
@@ -15,18 +15,18 @@ indent_size = 2
 indent_size = 4
 max_line_length = 88
 
-# Markdown — keep trailing spaces (used for hard line breaks)
+# Markdown — conserver les espaces de fin (sauts de ligne forcés)
 [*.md]
 trim_trailing_whitespace = false
 
-# Makefiles require tabs
+# Les Makefiles exigent des tabulations
 [Makefile]
 indent_style = tab
 
-# YAML / JSON / TS / JS / TSX / JSX
+# YAML / JSON / TS / JS / TSX / JSX / CSS / HTML
 [*.{yml,yaml,json,js,jsx,ts,tsx,css,scss,html}]
 indent_size = 2
 
-# Shell scripts
+# Scripts shell
 [*.sh]
 indent_size = 2

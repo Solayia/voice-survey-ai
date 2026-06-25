@@ -1,20 +1,22 @@
 # Templates
 
-Reusable content templates for VoiceSurvey AI.
+Modèles de contenu réutilisables pour VoiceSurvey AI.
 
-## Purpose
+## Rôle
 
-Holds **content** templates (distinct from GitHub issue/PR templates, which live
-in `.github/`). These are reusable building blocks used by the application and
-the team, such as:
+Contient les modèles de **contenu** (distincts des templates GitHub d'issues/PR,
+qui se trouvent dans `.github/`). Ce sont des briques réutilisables utilisées
+par l'application et par l'équipe :
 
-- **Questionnaire templates** — starter survey structures for market research.
-- **Report templates** — layouts for automatically generated reports.
-- **Email / notification templates** — campaign and operational messaging.
+- **Modèles de questionnaires** — structures d'enquêtes prêtes à l'emploi.
+- **Modèles de rapports** — mises en page des rapports générés automatiquement.
+- **Modèles d'e-mails / notifications** — messages de campagne et opérationnels.
+
+## Contenu (à venir)
+
+Placeholder uniquement pendant l'amorçage.
 
 ## Conventions
 
-- Keep templates data-driven and free of hard-coded business specifics.
-- Document each template's expected variables/placeholders.
-
-> ⚠️ Placeholder only during bootstrap.
+- Garder les modèles pilotés par les données, sans spécificités métier en dur.
+- Documenter les variables / champs attendus de chaque modèle.
