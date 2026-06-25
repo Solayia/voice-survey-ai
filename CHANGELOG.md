@@ -12,6 +12,8 @@ et le projet respecte le [versionnage sémantique](https://semver.org/lang/fr/).
 - Amorçage initial du dépôt : structure de dossiers professionnelle, fichiers de
   gouvernance, templates GitHub, placeholders de workflows CI, et squelette de
   documentation en français (`docs/00`–`docs/25`) avec dossier ADR.
+- Rédaction du document `04_BESOINS_MÉTIER.md` : analyse métier complète du
+  besoin du premier client (études de marché par téléphone automatisées par IA).
 
 ---
 
