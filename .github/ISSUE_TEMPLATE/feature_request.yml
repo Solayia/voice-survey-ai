@@ -1,0 +1,54 @@
+name: ✨ Feature Request
+description: Propose a new feature or enhancement for VoiceSurvey AI.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remember: **design first**. Significant features should reference or
+        update the relevant document in `docs/` before implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What problem does this solve? Who benefits?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature and how it should work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches you considered and why you rejected them.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Frontend
+        - Backend / API
+        - Telephony
+        - AI / Conversation engine
+        - Workflow engine
+        - Database
+        - Infrastructure / Deployment
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Documentation impact
+      description: Which documents in `docs/` need to be created or updated?
+    validations:
+      required: false

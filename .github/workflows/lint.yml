@@ -1,0 +1,25 @@
+# =============================================================================
+# Repository hygiene (PLACEHOLDER)
+# -----------------------------------------------------------------------------
+# Non-functional placeholder for repo-wide checks: Markdown linting, link
+# checking, EditorConfig compliance, secret scanning, etc.
+# =============================================================================
+name: Repo Hygiene
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  placeholder:
+    name: Hygiene checks (placeholder)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Placeholder notice
+        run: |
+          echo "Repo hygiene checks are not configured yet."
+          echo "TODO: markdownlint, link-check, editorconfig-checker, secret scan."

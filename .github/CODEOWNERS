@@ -1,0 +1,30 @@
+# CODEOWNERS — VoiceSurvey AI
+# -----------------------------------------------------------------------------
+# These owners are automatically requested for review when matching files
+# change. Order matters: the LAST matching pattern takes precedence.
+#
+# Replace the placeholder @org/team-* handles with real GitHub teams or users
+# before enabling required reviews.
+# -----------------------------------------------------------------------------
+
+# Default owners for everything in the repo
+*                       @org/team-maintainers
+
+# Documentation
+/docs/                  @org/team-architecture
+*.md                    @org/team-architecture
+
+# Backend (FastAPI / Python)
+/backend/               @org/team-backend
+
+# Frontend (Next.js / TypeScript)
+/frontend/              @org/team-frontend
+
+# Infrastructure, Docker, CI/CD
+/infrastructure/        @org/team-devops
+/docker/                @org/team-devops
+/.github/               @org/team-devops
+/scripts/               @org/team-devops
+
+# AI prompts & conversation engine
+/prompts/               @org/team-ai

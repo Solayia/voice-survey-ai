@@ -1,0 +1,31 @@
+name: 📝 Documentation
+description: Report missing, unclear, or outdated documentation.
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation is part of the product. Help us keep it accurate.
+  - type: input
+    id: document
+    attributes:
+      label: Affected document
+      description: Which file in `docs/` (or elsewhere) does this concern?
+      placeholder: docs/09_ARCHITECTURE.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong or missing?
+      description: Describe the documentation gap or error.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How should it be fixed or clarified?
+    validations:
+      required: false

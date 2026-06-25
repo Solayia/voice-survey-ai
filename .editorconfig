@@ -1,0 +1,32 @@
+# EditorConfig — https://editorconfig.org
+# Top-most EditorConfig file for VoiceSurvey AI
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Python — PEP 8
+[*.py]
+indent_size = 4
+max_line_length = 88
+
+# Markdown — keep trailing spaces (used for hard line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefiles require tabs
+[Makefile]
+indent_style = tab
+
+# YAML / JSON / TS / JS / TSX / JSX
+[*.{yml,yaml,json,js,jsx,ts,tsx,css,scss,html}]
+indent_size = 2
+
+# Shell scripts
+[*.sh]
+indent_size = 2
